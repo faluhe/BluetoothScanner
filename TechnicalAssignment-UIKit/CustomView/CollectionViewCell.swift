@@ -11,6 +11,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     //MARK: - Properties
     static let identifier = "CollectionViewCell"
+    
     let blurEffectView = UIVisualEffectView(effect: nil)
     var imgHeightConstraint: NSLayoutConstraint?
     
@@ -80,7 +81,7 @@ class CollectionViewCell: UICollectionViewCell {
                 price.text = "\(card.price ?? 0) USD"
             }else{
                 price.isHidden = true
-                title.font = UIFont(name: "Gibson-Bold", size: 26)
+                title.font = UIFont(name: K.Fonts.gibson_bold, size: 26)
                 
                 blurEffectView.effect = UIBlurEffect(style: .dark)
                 blurView.backgroundColor = .clear
@@ -100,28 +101,28 @@ class CollectionViewCell: UICollectionViewCell {
     }()
     
     private lazy var title: UILabel = {
-        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: "Gibson-Bold", size: 16), textColor: .white, text: " ")
+        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: K.Fonts.gibson_bold, size: 16), textColor: .white, text: " ")
         lbl.numberOfLines = 2
         lbl.minimumScaleFactor = 0.1
         return lbl
     }()
     
     private lazy var subTitle: UILabel = {
-        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: "Gibson-Regular", size: 14), textColor: .appGray, text: " ")
+        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: K.Fonts.gibson_regular, size: 14), textColor: .appGray, text: " ")
         lbl.numberOfLines = 2
         lbl.minimumScaleFactor = 0.8
         return lbl
     }()
     
     private lazy var price: UILabel = {
-        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: "Gibson-Regular", size: 14), textColor: .appDarkGray, text: " ")
+        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: K.Fonts.gibson_regular, size: 14), textColor: .appDarkGray, text: " ")
         lbl.minimumScaleFactor = 0.5
         return lbl
     }()
     
     private lazy var buyButton: UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("Buy", for: .normal)
+        btn.setTitle(K.Strings.buy, for: .normal)
         btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 16, weight: .semibold)
         btn.layer.cornerRadius = 16

@@ -2,7 +2,7 @@
 //  UILabel+Extension.swift
 //  TechnicalAssignment-UIKit
 //
-//  Created by Ismailov Farrukh on 06/03/23.
+//  Created by Ismailov Farrukh on 08/03/23.
 //
 
 import UIKit

@@ -14,7 +14,6 @@ class HeaderReusableView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .black
-        
         setupUI()
     }
     
@@ -40,26 +39,26 @@ class HeaderReusableView: UICollectionReusableView {
     
     //MARK: - Page elements
     lazy var title: UILabel = {
-        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: "Gibson-Bold", size: 18), textColor: .white, text: " ")
+        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: K.Fonts.gibson_bold, size: 18), textColor: .white, text: " ")
         lbl.minimumScaleFactor = 0.5
         return lbl
     }()
     
     lazy var subTitle: UILabel = {
-        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: "Gibson-Regular", size: 16), textColor: .appGray, text: " ")
+        let lbl = TextLabel(textAlignment: .left, font: UIFont(name: K.Fonts.gibson_regular, size: 16), textColor: .appGray, text: " ")
         lbl.minimumScaleFactor = 0.8
         return lbl
     }()
     
-    lazy var seeAllBtn: UIButton = {
+    private lazy var seeAllBtn: UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("See all", for: .normal)
-        btn.titleLabel?.font = UIFont(name: "Gibson-Regular", size: 18)
+        btn.setTitle(K.Strings.seeAll, for: .normal)
+        btn.titleLabel?.font = UIFont(name: K.Fonts.gibson_regular, size: 18)
         btn.translatesAutoresizingMaskIntoConstraints = false
         return btn
     }()
     
-    lazy var stackView: UIStackView = {
+    private lazy var stackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [title, subTitle])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical

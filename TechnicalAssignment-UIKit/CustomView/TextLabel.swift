@@ -2,13 +2,13 @@
 //  CustomViews.swift
 //  TechnicalAssignment-UIKit
 //
-//  Created by Ismailov Farrukh on 06/03/23.
+//  Created by Ismailov Farrukh on 08/03/23.
 //
 
 import UIKit
 
 class TextLabel: UILabel {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -24,10 +24,10 @@ class TextLabel: UILabel {
         self.font = UIFont.systemFont(ofSize: fontSize, weight: .semibold)
     }
     
-    convenience init(textAlignment: NSTextAlignment = .left, fontSize: CGFloat, textColor: UIColor, fontWeight: UIFont.Weight = .light, text: String = "") {
+    convenience init(textAlignment: NSTextAlignment = .left, font: UIFont?, fontSize: CGFloat? = nil, textColor: UIColor?, text: String = "") {
         self.init(frame: .zero)
         self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize, weight: fontWeight)
+        self.font = font
         self.textColor = textColor
         self.text = text
     }
@@ -38,5 +38,5 @@ class TextLabel: UILabel {
         adjustsFontSizeToFitWidth = true
         minimumScaleFactor = 0.90
     }
-
+    
 }

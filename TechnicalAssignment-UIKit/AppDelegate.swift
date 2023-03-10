@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TechnicalAssignment-UIKit
 //
-//  Created by Ismailov Farrukh on 06/03/23.
+//  Created by Ismailov Farrukh on 08/03/23.
 //
 
 import UIKit
@@ -10,10 +10,11 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor.black
+        UITabBar.appearance().barTintColor = UIColor.black
+        
         return true
     }
 

@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		9A507F5729B6837E000C45B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F5629B6837E000C45B6 /* AppDelegate.swift */; };
 		9A507F5929B6837E000C45B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F5829B6837E000C45B6 /* SceneDelegate.swift */; };
-		9A507F5B29B6837E000C45B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F5A29B6837E000C45B6 /* ViewController.swift */; };
-		9A507F5E29B6837E000C45B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F5C29B6837E000C45B6 /* Main.storyboard */; };
 		9A507F6029B6837F000C45B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F5F29B6837F000C45B6 /* Assets.xcassets */; };
 		9A507F6329B6837F000C45B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F6129B6837F000C45B6 /* LaunchScreen.storyboard */; };
+		9A507F6B29B6849B000C45B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F6A29B6849B000C45B6 /* TabBarController.swift */; };
+		9A507F6F29B68555000C45B6 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F6E29B68555000C45B6 /* StoreVC.swift */; };
+		9A507F7229B68CB6000C45B6 /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F7129B68CB6000C45B6 /* TextLabel.swift */; };
+		9A507F7429B68FD9000C45B6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F7329B68FD9000C45B6 /* UIView+Extension.swift */; };
+		9A507F7829B697DB000C45B6 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F7729B697DB000C45B6 /* UILabel+Extension.swift */; };
+		9A507F8129B70D90000C45B6 /* BluetoothScanerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F8029B70D90000C45B6 /* BluetoothScanerVC.swift */; };
+		9A507F8329B914CA000C45B6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F8229B914CA000C45B6 /* Color+Extension.swift */; };
+		9A507F9229B9BD71000C45B6 /* Gibson-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F8E29B9BD6B000C45B6 /* Gibson-RegularItalic.ttf */; };
+		9A507F9329B9BD75000C45B6 /* gibson-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F8F29B9BD6B000C45B6 /* gibson-bold.ttf */; };
+		9A507F9429B9BD78000C45B6 /* Gibson-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F9029B9BD6B000C45B6 /* Gibson-BoldItalic.ttf */; };
+		9A507F9529B9BD7B000C45B6 /* Gibson-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F9129B9BD6B000C45B6 /* Gibson-Regular.ttf */; };
+		9A507F9729B9BE5A000C45B6 /* nimbussanl-bol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A507F9629B9BE57000C45B6 /* nimbussanl-bol.otf */; };
+		9A507F9929B9BF52000C45B6 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F9829B9BF52000C45B6 /* StoreModel.swift */; };
+		9A507F9C29B9C564000C45B6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F9B29B9C564000C45B6 /* CollectionViewCell.swift */; };
+		9A507F9E29B9CB57000C45B6 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507F9D29B9CB57000C45B6 /* HeaderReusableView.swift */; };
+		9A507FA329BB0AE7000C45B6 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507FA229BB0AE7000C45B6 /* BluetoothService.swift */; };
+		9A507FA529BB0B90000C45B6 /* HorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507FA429BB0B90000C45B6 /* HorizontalCell.swift */; };
+		9A507FA729BB0C6B000C45B6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507FA629BB0C6B000C45B6 /* Helper.swift */; };
+		9A507FAA29BB2616000C45B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A507FA929BB2616000C45B6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A507F5329B6837E000C45B6 /* TechnicalAssignment-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechnicalAssignment-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A507F5629B6837E000C45B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A507F5829B6837E000C45B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A507F5A29B6837E000C45B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A507F5D29B6837E000C45B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A507F5F29B6837F000C45B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A507F6229B6837F000C45B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A507F6429B6837F000C45B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A507F6A29B6849B000C45B6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9A507F6E29B68555000C45B6 /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		9A507F7129B68CB6000C45B6 /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		9A507F7329B68FD9000C45B6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		9A507F7729B697DB000C45B6 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		9A507F8029B70D90000C45B6 /* BluetoothScanerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanerVC.swift; sourceTree = "<group>"; };
+		9A507F8229B914CA000C45B6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9A507F8E29B9BD6B000C45B6 /* Gibson-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-RegularItalic.ttf"; sourceTree = "<group>"; };
+		9A507F8F29B9BD6B000C45B6 /* gibson-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gibson-bold.ttf"; sourceTree = "<group>"; };
+		9A507F9029B9BD6B000C45B6 /* Gibson-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9A507F9129B9BD6B000C45B6 /* Gibson-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Regular.ttf"; sourceTree = "<group>"; };
+		9A507F9629B9BE57000C45B6 /* nimbussanl-bol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nimbussanl-bol.otf"; sourceTree = "<group>"; };
+		9A507F9829B9BF52000C45B6 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		9A507F9B29B9C564000C45B6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9A507F9D29B9CB57000C45B6 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		9A507FA229BB0AE7000C45B6 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
+		9A507FA429BB0B90000C45B6 /* HorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCell.swift; sourceTree = "<group>"; };
+		9A507FA629BB0C6B000C45B6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9A507FA929BB2616000C45B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +92,86 @@
 			children = (
 				9A507F5629B6837E000C45B6 /* AppDelegate.swift */,
 				9A507F5829B6837E000C45B6 /* SceneDelegate.swift */,
-				9A507F5A29B6837E000C45B6 /* ViewController.swift */,
-				9A507F5C29B6837E000C45B6 /* Main.storyboard */,
 				9A507F5F29B6837F000C45B6 /* Assets.xcassets */,
 				9A507F6129B6837F000C45B6 /* LaunchScreen.storyboard */,
 				9A507F6429B6837F000C45B6 /* Info.plist */,
+				9A507F8529B9B03A000C45B6 /* Fonts */,
+				9A507FA129BB0AD6000C45B6 /* Manager */,
+				9A507F7029B68CA0000C45B6 /* Controllers */,
+				9A507F7A29B69CEF000C45B6 /* CustomView */,
+				9A507F7929B69CE3000C45B6 /* Extensions */,
+				9A507F9A29B9C470000C45B6 /* Model */,
+				9A507FA829BB0C76000C45B6 /* Utility */,
 			);
 			path = "TechnicalAssignment-UIKit";
+			sourceTree = "<group>";
+		};
+		9A507F7029B68CA0000C45B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A507F6A29B6849B000C45B6 /* TabBarController.swift */,
+				9A507F6E29B68555000C45B6 /* StoreVC.swift */,
+				9A507F8029B70D90000C45B6 /* BluetoothScanerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A507F7929B69CE3000C45B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A507F7329B68FD9000C45B6 /* UIView+Extension.swift */,
+				9A507F7729B697DB000C45B6 /* UILabel+Extension.swift */,
+				9A507F8229B914CA000C45B6 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A507F7A29B69CEF000C45B6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9A507F7129B68CB6000C45B6 /* TextLabel.swift */,
+				9A507F9D29B9CB57000C45B6 /* HeaderReusableView.swift */,
+				9A507FA429BB0B90000C45B6 /* HorizontalCell.swift */,
+				9A507F9B29B9C564000C45B6 /* CollectionViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		9A507F8529B9B03A000C45B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A507F8F29B9BD6B000C45B6 /* gibson-bold.ttf */,
+				9A507F9029B9BD6B000C45B6 /* Gibson-BoldItalic.ttf */,
+				9A507F9129B9BD6B000C45B6 /* Gibson-Regular.ttf */,
+				9A507F8E29B9BD6B000C45B6 /* Gibson-RegularItalic.ttf */,
+				9A507F9629B9BE57000C45B6 /* nimbussanl-bol.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A507F9A29B9C470000C45B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A507F9829B9BF52000C45B6 /* StoreModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A507FA129BB0AD6000C45B6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A507FA229BB0AE7000C45B6 /* BluetoothService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9A507FA829BB0C76000C45B6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9A507FA929BB2616000C45B6 /* Constants.swift */,
+				9A507FA629BB0C6B000C45B6 /* Helper.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +233,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A507F6329B6837F000C45B6 /* LaunchScreen.storyboard in Resources */,
+				9A507F9429B9BD78000C45B6 /* Gibson-BoldItalic.ttf in Resources */,
 				9A507F6029B6837F000C45B6 /* Assets.xcassets in Resources */,
-				9A507F5E29B6837E000C45B6 /* Main.storyboard in Resources */,
+				9A507F9529B9BD7B000C45B6 /* Gibson-Regular.ttf in Resources */,
+				9A507F9729B9BE5A000C45B6 /* nimbussanl-bol.otf in Resources */,
+				9A507F9229B9BD71000C45B6 /* Gibson-RegularItalic.ttf in Resources */,
+				9A507F9329B9BD75000C45B6 /* gibson-bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +249,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A507F5B29B6837E000C45B6 /* ViewController.swift in Sources */,
+				9A507F7829B697DB000C45B6 /* UILabel+Extension.swift in Sources */,
+				9A507F7429B68FD9000C45B6 /* UIView+Extension.swift in Sources */,
+				9A507FA729BB0C6B000C45B6 /* Helper.swift in Sources */,
+				9A507F6B29B6849B000C45B6 /* TabBarController.swift in Sources */,
 				9A507F5729B6837E000C45B6 /* AppDelegate.swift in Sources */,
+				9A507F9929B9BF52000C45B6 /* StoreModel.swift in Sources */,
+				9A507FA329BB0AE7000C45B6 /* BluetoothService.swift in Sources */,
+				9A507FAA29BB2616000C45B6 /* Constants.swift in Sources */,
+				9A507F8129B70D90000C45B6 /* BluetoothScanerVC.swift in Sources */,
+				9A507FA529BB0B90000C45B6 /* HorizontalCell.swift in Sources */,
+				9A507F9E29B9CB57000C45B6 /* HeaderReusableView.swift in Sources */,
+				9A507F7229B68CB6000C45B6 /* TextLabel.swift in Sources */,
+				9A507F9C29B9C564000C45B6 /* CollectionViewCell.swift in Sources */,
 				9A507F5929B6837E000C45B6 /* SceneDelegate.swift in Sources */,
+				9A507F8329B914CA000C45B6 /* Color+Extension.swift in Sources */,
+				9A507F6F29B68555000C45B6 /* StoreVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A507F5C29B6837E000C45B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A507F5D29B6837E000C45B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A507F6129B6837F000C45B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,21 +406,26 @@
 				DEVELOPMENT_TEAM = 2972HQU7FK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TechnicalAssignment-UIKit/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to scan to nearby peripherals";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to connect to nearby peripherals";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.home-assesment.TechnicalAssignment-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.assesment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,21 +439,26 @@
 				DEVELOPMENT_TEAM = 2972HQU7FK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TechnicalAssignment-UIKit/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to scan to nearby peripherals";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to connect to nearby peripherals";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.home-assesment.TechnicalAssignment-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.assesment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -2,7 +2,7 @@
 //  TabBarController.swift
 //  TechnicalAssignment-UIKit
 //
-//  Created by Ismailov Farrukh on 06/03/23.
+//  Created by Ismailov Farrukh on 08/03/23.
 //
 
 import UIKit
@@ -19,11 +19,10 @@ class TabBarController: UITabBarController {
         tabBar.unselectedItemTintColor = .darkGray
         
         viewControllers = [
-            createNavController(for: BluetoothViewController(), title: "Home", image: UIImage(systemName: "house.fill")!),
-            createNavController(for: StoreVC(), title: "Shop" , image: UIImage(systemName: "bag.circle")!),
+            createNavController(for: BluetoothScannerVC(), title: K.Strings.home, image: K.Images.homeIcon),
+            createNavController(for: StoreVC(), title: K.Strings.shop , image: K.Images.shopIcon),
         ]
     }
-    
     
     
     fileprivate func createNavController(for rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {
@@ -33,6 +32,5 @@ class TabBarController: UITabBarController {
             return navController
         }
 
-   
 
 }
